@@ -1,0 +1,70 @@
+/* body{
+
+} */
+body{
+    background-image:url('https://media.giphy.com/media/7VzgMsB6FLCilwS30v/giphy-downsized-large.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    color: white;
+}
+.container{
+    /* background-color: antiquewhite; */
+    margin-top: -33px;
+}
+.but1{
+    padding-left: 35%;
+}
+.heading{
+
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    
+}
+h3{
+    font-family: cursive;
+    font-weight: 900;
+}
+.heading2{
+    text-align: center;
+    
+}
+h4{
+    font-family: cursive;
+    font-weight: 800;
+}
+.but1{
+     /* background-color: orange; */
+}
+#attendance-record-btn{
+    background-color: orange;
+}
+.but2{
+    align-items: center;
+    text-align: center;
+    /* margin-left: 35%; */
+}
+.heading3{
+    text-align: center;
+}
+.something{
+    margin-top: 20px;
+    
+}
+#recording-instructions{
+    font-family: cursive;
+    font-weight: 800;
+}
+#notes{
+    text-align: center;
+}
+.input-single{
+    margin-bottom: 1rem;
+    margin-left: 108px;
+    margin-right: 80px;
+}
+textarea {
+    resize: none;
+ }

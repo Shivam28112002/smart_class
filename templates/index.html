@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static', filename='styles/style1.css')}}"  rel="stylesheet">
+    <script src="static/js/index.js"> </script>
+    <!-- <script src="{{ url_for('static',filename='js/index.js') }}"> </script>    -->
+ <title>Check the result</title>
+</head>
+<body>
+    <div id="main">
+        <div id="inputs">
+            <h2>Enter the name to get the Report</h2>
+         <input type="text" name="" id="studentname" placeholder="student name">
+         <br>
+          <input type="button" name="" onclick="result()" value="check report!">
+          <p id="output"></p>
+        </div>
+    </div>
+</body>
+</html>

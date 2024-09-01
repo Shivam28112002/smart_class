@@ -1,0 +1,1 @@
+{"Posture": "Has good posture", "Blinking": "Feels drowsy during class", "Attentiveness": "Attentive"}

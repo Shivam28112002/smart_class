@@ -9,6 +9,7 @@
 #inputs{
     width: 25rem;
     height: 28rem;
+    /* here use hover effect */
     box-shadow: 10px 10px 15px coral;
     position: relative;
     margin: 6% auto;
@@ -29,11 +30,13 @@ input{
     box-shadow: 4px 4px 10px white;
     border-radius: 9px;
 }
+/* Adds some margin spacing to paragraphs inside the container */
 p{
     margin-top: 15px;
 }
 
 #inputs:hover{
+    /* when hoverd the shadow changes its color */
     box-shadow: 10px 10px 15px rgb(50, 143, 210);
     transition: 1s;
     transform: scale(1.1);

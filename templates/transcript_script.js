@@ -1,3 +1,5 @@
+// This JavaScript script is a voice-to-text application that uses the Web Speech API for voice recognition and local storage to save and manage notes.
+
 
 var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 //The SpeechRecognition interface of the Web Speech API 
@@ -8,13 +10,7 @@ var noteTextarea = $('#note-textarea');
 var instructions = $('#recording-instructions');
 var notesList = $('ul#notes');
 var noteContent = '';
-  
-  
-  
-  
-  
  
-  
   recognition.continuous = true;
   
   // This block is called every time the Speech APi captures a line. 

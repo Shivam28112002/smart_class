@@ -9,12 +9,6 @@ var instructions = $('#recording-instructions');
 var notesList = $('ul#notes');
 var noteContent = '';
   
-  
-  
-  
-  
- 
-  
   recognition.continuous = true;
   
   // This block is called every time the Speech APi captures a line. 
@@ -115,9 +109,6 @@ var noteContent = '';
       target.closest('.note').remove();
     }
   });
-  
-  
-  
  
   
   function renderNotes(notes) {

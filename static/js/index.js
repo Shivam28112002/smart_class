@@ -1,6 +1,6 @@
 function result(){
     var students={
-        SHIVANKAR: {
+        SHIVAM: {
             math: "95",
             physics: "80",
             literature: "75",
@@ -16,8 +16,8 @@ function result(){
             literature: "75",
         }
     }
-    var studentname=document.getElementById('studentname').value;
-    var input=studentname.toUpperCase();
+    var studentname=document.getElementById('studentname').value;  //It fetches the value entered into an input field
+    var input=studentname.toUpperCase();  //Converts the input into uppercase using to match the in input
     var definition= students[input];
     var output= document.getElementById("output");
 
